@@ -1,0 +1,44 @@
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 388px;
+    height: 175px;
+    border-radius: 8px;
+    margin-top: -32px;
+    background: white;
+}
+
+.saldoTotal{
+    background: #06D6A2;
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 20px;
+    padding: 10px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.value{
+    font-size: 42px;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+}
+.contentvalue{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+

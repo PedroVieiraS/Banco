@@ -1,0 +1,99 @@
+.modaloverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modalcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background: #fdfdfd;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 692px;
+    max-height: 623px;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+.icon{
+  width: 20px;
+}
+
+.divbtn{
+  display: flex;
+  width: 90%;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+.BtnFechar{
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.input{
+  width: 588px;
+  height: 67px;
+  border: 1px solid #d9d9d9;
+  border-radius: 7px;
+  background: #f7f7f7;
+  padding: 15px;
+}
+.containerinput{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.containerbtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnFunction{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 284px;
+  height: 67px;
+  border-radius: 7px;
+  opacity: 1;
+  border: 1px solid #d9d9d9;
+}
+  
+.btnCadastrar{
+  width: 588px;
+  height: 66px;
+  background: #401A9B;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  font-size: 22px;
+  font-weight: bold;
+
+}
+
+
+.divtext{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  padding-left: 35px;
+}

@@ -1,0 +1,27 @@
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 177px;
+    background: #30107d;
+}
+
+.image{
+    width: 186px;
+    height: 34.46px;
+}
+
+.btn{
+    width: 245px;
+    height: 53px;
+    background: #401A9B;
+    border-radius: 8px;
+    opacity: 1;
+    border: none;
+
+    color: #B9B9B9;
+    font-weight: bold;
+}

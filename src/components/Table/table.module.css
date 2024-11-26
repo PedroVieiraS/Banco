@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.table{
+    color: #B9B9B9;
+}
+
+th{
+    padding: 5px 30px;
+}
+tr{
+    border-radius: 8px;
+}
+td{
+    max-width: 1196px;
+    height: 63px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
