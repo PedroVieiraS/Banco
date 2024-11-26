@@ -87,7 +87,7 @@ export default function Modal({ closeModal, onSubmit }) {
             >
               <img className={styles.icon} src={upcircle} alt="" /> Saída
             </button>
-          </div>
+          </div >
           <input
             type="text"
             name="categoria"

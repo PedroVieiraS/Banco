@@ -1,5 +1,6 @@
 import styles from "./table.module.css";
-import { Trash2 } from "react-feather";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTrashCan } from "@fortawesome/free-solid-svg-icons";
 
 export default function Table({ transacoes, removeTransaction }) {
 
@@ -42,8 +43,8 @@ export default function Table({ transacoes, removeTransaction }) {
               <td>{transacao.categoria}</td>
               <td>{dateFormatter(transacao.hora)}</td>
               <td>
-                <button onClick={() => removeTransaction(index)}>
-                  <Trash2 size={16} color="red" />
+                <button className={styles.iconbtn} onClick={() => removeTransaction(index)}>
+                  <FontAwesomeIcon color="red" icon={faTrashCan} />
                 </button>
               </td>
             </tr>

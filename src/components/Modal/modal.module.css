@@ -64,9 +64,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 20px 10px;
+  gap: 10px;
 }
 
-.btnFunction{
+.btnFunction {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,6 +78,12 @@
   border-radius: 7px;
   opacity: 1;
   border: 1px solid #d9d9d9;
+  background-color: #f0f0f0; 
+  transition: background-color 0.2s ease; 
+}
+
+.btnFunction:active {
+  background-color: #c0c0c0;
 }
   
 .btnCadastrar{
@@ -87,7 +95,7 @@
   border: none;
   font-size: 22px;
   font-weight: bold;
-
+  margin-top: 10px;
 }
 
 

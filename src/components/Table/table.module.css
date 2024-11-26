@@ -2,22 +2,42 @@
     display: flex;
     justify-content: center;
     width: 100vw;
+    margin-top: 10px;
+    padding: 20px;
 }
 .table{
     color: #B9B9B9;
 }
 
+table{
+    border-collapse: collapse;
+    
+}
 th{
     padding: 5px 30px;
+    background-color: #F1F5F8;
+    
+    
 }
 tr{
-    border-radius: 8px;
+    
 }
 td{
-    max-width: 1196px;
+    width: 1196px;
     height: 63px;
-    border-radius: 8px;
-    background: #FFFFFF;
     text-align: center;
     padding: 20px;
+    background-color: white;
+}
+
+td:first-child {
+    border-radius: 8px 0 0 8px;
+  }
+  
+  td:last-child {
+    border-radius: 0 8px 8px 0;
+  }
+
+.iconbtn{
+    border: none;
 }
